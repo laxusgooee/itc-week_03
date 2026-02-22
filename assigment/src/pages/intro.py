@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("Title")
+st.title("⚽ Player Performance & Market Segmentation")
 
 st.subheader("About")
 st.write("""The goal of this project is to segment customers

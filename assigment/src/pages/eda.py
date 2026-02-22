@@ -1,11 +1,8 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 import altair as alt
 from pages.data_summary import df_no_index as df
 
-
 st.title("EDA")
-
 
 with st.container():
     chart = alt.Chart(df).mark_bar().encode(
